@@ -4,7 +4,6 @@ body {
 }
 * {
   font-family: "Inter";
-  font-style: normal;
 }
 
 .top-header {
@@ -74,6 +73,10 @@ body {
 
 .carousel-item {
   box-sizing: border-box;
+}
+
+.carousel-item img {
+  max-width: 100%;
 }
 
 #about-me {
